@@ -1,0 +1,13 @@
+---
+title: "Params Test"
+output: html_document
+params:
+  base: 2
+  times: 10
+---
+
+## Multiply with params
+
+**Result of: `r params$base` times `r params$times`**
+
+`r params$base * params$times`
